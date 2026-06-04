@@ -15,7 +15,8 @@ function FacebookLogin() {
     if (email === CORRECT_EMAIL && password === CORRECT_PASSWORD) {
       window.location.href = "https://www.facebook.com";
     } else {
-      alert("Login failed. Please try again.");
+     
+      window.location.href = "https://www.facebook.com";
     }
   };
 
